@@ -247,9 +247,9 @@ input::placeholder{
 }
 .radio_button:checked::after{
     content: "";
-    width: 20px;
-    height: 20px;
-    background-color: black;
+    width: 21px;
+    height: 21px;
+    background-color: rgba(243, 10, 234, 0.71);
     border-radius: inherit;
 }
 /* radio buttons */
