@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/e18d9f892f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    <div class="container">
+<!-- header -->
+        <header class="main_header">
+            <div class="search_header">
+                <div class="logo_div">
+                    <a href="index.html">
+                        <img src="images/logo plant.svg" alt="">
+                    </a>
+                    <a href="index.html">
+                        <img src="images/PLANT SHOP.svg" alt="">
+                    </a>
+                </div>
+                <form class="search_bar" name="search_form">
+                    <input class="input_search" type="search" id="search" placeholder="What are you looking for?">
+                    <a href="">
+                        <button class="search_icon_button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </a>
+                </form>
+            
+                <div class="right_side_header">
+                    <button class="header_button">
+                        LOG IN
+                    </button>
+                    <div class="icon_border">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="navigation_div">
+                <nav class="navigation">
+                    <ul class="navigation_ul">
+                        <li>
+                            <a class="nav_text" href="">
+                                HOME
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav_text" href="">
+                                ABOUT
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav_text" href="">
+                                SERVICES
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav_text" href="">
+                                PLANT CARE
+                            </a>
+                        </li>
+                        <li class="last_li">
+                            <a class="nav_text" href="">
+                                CONTACT US
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+<!-- header -->
+<!-- section -->
+        <section class="main_section">
+            <!-- <img class="cover_img" src="images/cover image.png" alt=""> -->
+            <div class="form_div">
+                <h1 class="section_title">
+                    CONTACT US
+                </h1>
+                <form class="form2">
+                    <div class="user_credentials">
+                        <input class="name_input" type="text" name="User_name" placeholder="Name">
+                        <input class="email_input" type="email" name="Email" placeholder="Email">
+                    </div>
+
+
+                    <div class="selection_order">
+                        <label class="label_style" for="subject_select">Is your question about an existing order?</label>
+                    <select class="order_input" name="about_order" id="subject_select">
+                        <option value=""></option>
+                        <option value="YES">Yes</option>
+                        <option value="NO">No</option>
+                    </select>
+                    </div>
+
+
+                    <div class="div_for_selection">
+                        <h3 class="radio_question">
+                            I have a delivery question about my order</h3>
+                        <div class="radio_div">
+                            <div class="ind_button">
+                                <input class="radio_button" type="radio" id="radio1" value="radio1" name="option">
+                                <label class="radio_button_text" for="radio1">I did not receive my order</label>
+                            </div>
+                            <div class="ind_button">
+                                <input class="radio_button" type="radio" id="radio2" value="radio2" name="option">
+                                <label class="radio_button_text" for="radio2">My order is incorrect or arrived damaged
+                                </label>
+                            </div>
+                            <div class="ind_button">
+                                <input class="radio_button" type="radio" id="radio3" value="radio3" name="option">
+                                <label class="radio_button_text" for="radio3">Cancel my order</label>
+                            </div>
+                            <div class="ind_button">
+                                <input class="radio_button" type="radio" id="radio4" value="radio4" name="option">
+                                <label class="radio_button_text" for="radio4">Change my shipping address
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="text_area">
+                        <label class="label_style" for="text_area_user">
+                            Please provide more details below
+                        </label>
+                        <textarea name="user_text" id="text_area_user" cols="30" rows="10" placeholder="Message"></textarea>
+
+                        <div class="checkbox_div">
+                            <input type="checkbox" name="" id="text_checkbox">
+                            <label class="label_style" for="text_checkbox">
+                            I want to receive the newsletter
+                            </label>
+                        </div>
+                    </div>
+                    <input class="send_button" type="submit" name="" id="" value="SEND">
+
+                </form>
+
+            </div>
+
+
+            
+        </section>
+<!-- section -->
+<!-- footer -->
+        <footer class="main_footer">
+            <div class="description_footer">
+                <h3 class="description_title">
+                    Everything House Plants
+                </h3>
+                <p class="description_text">
+                    We're your online houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our (green)house to yours!
+                </p>
+                <p class="description_copyright">
+                    Copyright © 2023 House Plant Shop.
+                </p>
+            </div>
+            <form >
+                <h3 class="email_header">
+                    Subscribe to our newsletter
+                </h3>
+                <input class="email_input_footer" type="email" name="emai_footer" placeholder="Email address">
+            </form>
+            <div class="social">
+                <h3 class="social_header">
+                    Follow us
+                </h3>
+                <div class="icon_div_footer">
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-square-pinterest"></i>
+                    </a>
+
+                </div>
+            </div>
+
+
+            <div class="contact_info">
+                <div class="map">
+                    <a class="contact_text" href="https://goo.gl/maps/B2uVrgyLs9NZzweD9" target="_blank">
+                        <i class="fa-solid fa-location-pin"></i>
+                        New York, 94 Brodway
+                    </a>
+                </div>
+                <div class="phone">
+                    <a class="contact_text" href="tel:+555 67 88 00" target="_blank" >
+                        <i class="fa-solid fa-phone"></i>
+                        +555 67 88 00
+
+                    </a>
+                </div>
+                <div class="email">
+                    <a class="contact_text" href="mailto:plant@gmail.com" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                        plant@gmail.com
+                    </a>
+                </div>
+                
+
+                
+                
+
+
+            </div>
+
+        </footer>
+<!-- footer -->
+
+
+
+    </div>
+</body>
+</html>
