@@ -45,7 +45,7 @@
         width: 99%;
     }
 }
-
+/* mobile */
 @media (max-width: 500px) {
     .login_text{
         display: none;
