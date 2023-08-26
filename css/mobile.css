@@ -1,0 +1,61 @@
+
+@media (max-width: 1200px) {
+    .navigation_ul{
+        display: none;
+    }
+    .icon_mobile{
+        display: block;
+        width: 32px;
+    }
+    .navigation{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1000px){
+    .main_footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 32px;
+        
+    }
+    .description_footer, .footer_input, .contact_info, .social{
+        text-align: center;
+        width: 70%;
+    }
+    .email_input_footer{
+        padding: 2%;
+    }
+    .description_text{
+        margin-bottom: 48px;
+    }
+}
+@media (max-width: 800px) {
+    .search_bar {
+        display: none;
+    }
+    .form_div{
+        padding:48px 0;
+    }
+    .form2{
+        width: 95%;
+    }
+    .form_div{
+        width: 99%;
+    }
+}
+
+@media (max-width: 500px) {
+    .login_text{
+        display: none;
+    }
+    .fa-user, .fa-cart-shopping{
+        display: block;
+    }
+    .header_button, .icon_border{
+        padding: 8px 10px;
+    }
+    
+    
+}
